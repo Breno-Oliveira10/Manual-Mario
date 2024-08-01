@@ -1,0 +1,235 @@
+.conteudo-pag2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    margin-top: -17px;
+}
+
+.conteudo-container {
+    display: flex;
+    flex-direction: column; /* Ajusta o layout para coluna */
+    align-items: center; /* Centraliza itens horizontalmente */
+    text-align: center; /* Centraliza texto dentro do container */
+}
+
+.conteudo-texto {
+    margin-bottom: 10px; /* Espaçamento entre o texto e a imagem */
+}
+
+.conteudo-texto h1, .conteudo-texto h2, .conteudo-texto p {
+    margin-top: 10px;
+    margin-bottom: 10px; /* Espaçamento entre os elementos de texto */
+}
+
+.conteudo-texto p {
+    margin-left:  40px;
+    margin-right:  40px;
+    text-align: justify;
+}
+
+.conteudo-container img {
+    width: 470px;
+    height: 325px;
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+    .conteudo-pag2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .conteudo-texto {
+        width: 95%;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .conteudo-container img {
+        width: 80%;
+        height: auto;
+    } 
+}
+
+/* Class GamePlay Mario */
+.GameplayMario {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    margin-top: -28px;
+}
+
+.conteudo-textoGameplay {
+    margin-bottom: 20px; 
+}
+
+.conteudo-textoGameplay h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.conteudo-textoGameplay p {
+    margin-left: 40px;
+    margin-right:  40px;
+    text-align: justify;
+}
+
+.GameplayMario img {
+    width: 470px;
+    height: 325px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+    .GameplayMario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-textoGameplay {
+        width: 95%;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .conteudo-textoGameplay h2 {
+        text-align: center;
+    }
+
+    .GameplayMario img {
+        width: 80%;
+        height: auto;
+    }
+}
+
+/* Class MARIO */
+.Mario {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+}
+
+.conteudo-textoMario {
+    margin-bottom: 20px; 
+}
+
+.conteudo-textoMario h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.conteudo-textoMario p {
+    margin-left:  40px;
+    margin-right:  40px;
+    text-align: justify;
+}
+
+.Mario img {
+    width: 470px;
+    height: 325px;
+    margin-bottom: 10px;
+    display: block; 
+    margin: 0 auto; 
+}
+
+/* responsividade */
+@media (max-width: 1000px) {
+    .Mario {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -60px;
+    }
+
+    .conteudo-textoMario {
+        width: 95%;
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .conteudo-textoMario h2 {
+        text-align: center;
+    }
+
+    .Mario img {
+        width: 80%;  
+        height: auto;
+    }
+}
+
+.OperacoesMario {
+    display: flex;
+    flex-direction: column; /* Ordena elementos em coluna */
+    align-items: center;
+    margin-top: -25px;
+    text-align: center; /* Centraliza texto */
+}
+
+.OperacoesMario h2 {
+    margin-top: 34px;
+}
+
+.OperacoesMario img {
+    width: 470px;
+    height: 325px; 
+    margin: 20px 0; /* Espaço entre a imagem e os textos */
+}
+
+.Operacoesmario-texto {
+    max-width: 990px; 
+    text-align: justify;
+}
+
+.Operacoesmario-texto h3 {
+    margin-top: 20px;
+}
+
+.Operacoesmario-texto p {  
+    margin-left:  40px;
+    margin-right:  40px;
+    text-align: justify;
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+    .OperacoesMario {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .OperacoesMario img {
+        width: 80%;
+        height: auto; 
+    } 
+
+    .Operacoesmario-texto { 
+        width: 95%; 
+        text-align: justify;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Operacoesmario-texto h2, .Operacoesmario-texto h3 {
+        text-align: center;
+    }
+}
+
+.rodape-page2 {
+    background-color: #02b44c;
+    padding: 1rem;
+    text-align: center;
+}
+
+

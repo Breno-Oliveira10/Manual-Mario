@@ -1,0 +1,130 @@
+.conteudopag1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center; 
+	width: 80%;
+	margin: auto;
+	margin-top: 25px;
+	gap: 2rem;
+}
+
+.conteudo-textopag1 h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+.conteudopag1 > div {
+	background: #adadac;
+	border-radius: 0.5rem;
+	padding: 1rem;
+	box-shadow: 1rem 0.5rem #1f1e1e;
+	width: 100%;
+	max-width: 250px; /* Define uma largura máxima para os cards */
+	flex: 1 1 250px; /* Flex ajustado para largura mínima */
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center; /* Centraliza conteúdo do card */
+	text-align: center;
+}
+
+.conteudopag1 h1 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+.conteudopag1 p,
+.conteudopag1 ul,
+.conteudopag1 ol {
+	text-align: justify;
+	margin-bottom: 1rem;
+}
+
+.conteudopag1 img {
+	width: 100%;
+	max-width: 220px; /* Define a largura máxima das imagens */
+	height: auto; /* Mantém a proporção das imagens */
+	border-radius: 0.5rem;
+	object-fit: contain;
+}
+
+.container1, .container2, .container3, .container4,
+.container5, .container6, .container7, .container8 {
+	width: 100%;
+	max-width: 250px;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.container7, .container8{
+   margin-bottom: 30px;
+}
+
+.container1 h1, .container2 h1, .container3 h1, .container4 h1,
+.container5 h1, .container6 h1, .container7 h1, .container8 h1 {
+	margin-top: -1rem;
+}
+
+.container1, .container2, .container3, .container4, 
+.container5, .container6, .container7, .container8 {
+	flex-direction: column;
+	width: 100%;
+	max-width: 250px;
+}
+
+.container5 .ms {
+	width: 100%;
+	margin-bottom: 1rem;
+}
+
+.rodape-page1 {
+	background-color: #02b44c;
+	padding: 1rem;
+	text-align: center;
+}
+
+@media (min-width: 1440px) {
+	.container5, .container6{
+		margin-bottom: 30px;  
+	}
+}
+
+@media (min-width: 1810px) {
+	.container5{
+		margin-bottom: auto;  
+	}
+}
+
+@media (min-width: 1000px) {
+	.conteudopag1 {
+		width: 85%;
+	}
+
+	.conteudopag1 > div {	
+		max-width: 45%; /* Largura máxima para manter a proporção */
+	}
+}
+
+@media (max-width: 850px) {
+	.conteudopag1 {
+		flex-direction: column;
+		align-items: center; /* Centraliza os elementos verticalmente */
+	}
+
+	.conteudopag1 > div {
+		width: 75%;
+		max-width: 250px;
+	}
+}
+
+@media (max-width: 600px) {
+	h1, h2 {
+		font-size: 1.4em;
+	}
+}
+
+@media (max-width: 500px) {
+	h1, h2 {
+		font-size: 1.2em;
+	}
+}

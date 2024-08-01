@@ -1,0 +1,153 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main h1 {
+  margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+table, td {
+  border: 2px solid #000000;
+  border-collapse: collapse;
+}
+
+table {
+  width: 85%;
+  max-width: 650px;
+  margin: auto;
+  background: #2eaf07;
+  border-collapse: collapse;
+  border-spacing: 20px;
+  color: #ffffff;
+}
+
+tr, td, th {
+    width: 20px;
+    text-align: center;
+    background: #2eaf07;
+    padding: 25px;
+}
+
+img.td {
+  max-width: 100px;
+  max-height: 100px;
+  text-align: center;
+  background: #2eaf07;
+}
+
+.rodape-page3 {
+  background-color: #02b44c;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.imagem-Yoshi_Verde,
+.imagem-Yoshi_Vermelho,
+.imagem-Yoshi_Azul,
+.imagem-Yoshi_Amarelo {
+  width: 95%;
+  height: auto;
+}
+
+.charg,
+.kop,
+.skop {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding: 1rem;
+}
+
+.charg li,
+.kop li,
+.skop li {
+  padding-bottom: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+  table {
+    font-size: 0.9rem;
+  }
+
+  .imagem-Yoshi_Verde,
+  .imagem-Yoshi_Vermelho,
+  .imagem-Yoshi_Azul,
+  .imagem-Yoshi_Amarelo,
+  p.img img {
+    width: 100%;
+  }
+
+  tr, td {
+    padding: 15px;
+  }
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+  table {
+    font-size: 0.8rem;
+  }
+
+  tr, td {
+    padding: 10px;
+  }
+}
+
+p.ImagemInimigos img {
+  width: 85%;
+  height: auto;
+  max-width: 290px;
+}
+
+p.ImagemInimigos img:first-of-type {
+  height: 260px;
+  max-width: 290px;
+}
+
+p.ImagemInimigos img:last-of-type {
+  height: 260px;
+  max-width: 290px;
+}
+
+p.ImagemInimigos {
+  text-align: center;
+  background: #0080006c;
+  padding: 15px;
+  margin: 0 auto;
+  width: 70%;
+  max-width: 600px;
+}
+
+/* Responsividade */
+@media (max-width: 598px) {
+  p.ImagemInimigos img {
+    width: 100%;
+    max-width: none;
+    margin: 20px auto;
+  }
+
+  p.ImagemInimigos {
+    width: 85%;
+  }
+
+  table, td, th {
+    font-size: 0.7rem;
+  }
+
+  tr, td {
+    padding: 5px;
+  }
+}

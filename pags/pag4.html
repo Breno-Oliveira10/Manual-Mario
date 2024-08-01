@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual Mario World</title>
+    <link rel="shortcut icon" href="../img/marioo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/page1.css">
+    <link rel="stylesheet" href="../css/page2.css">
+    <link rel="stylesheet" href="../css/page3.css">
+    <link rel="stylesheet" href="../css/page4.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <h1 class="logo">
+                    <a href="../index.html"><img src="../img/mariofeliz.png" alt="logo-mario"></a>
+                </h1>
+            </div>
+
+            <div class="menu-icon" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="close-icon" onclick="toggleMenu()">
+                <i class="fas fa-times"></i>
+            </div>
+
+            <ul class="navbar-right" id="nav-links">
+                <li><a href="pag1.html">Operações do Controle</a></li>
+                <li><a href="pag2.html">Como Jogar</a></li>
+                <li><a href="pag3.html">Personagens</a></li>
+                <li><a href="pag4.html">Como Salvar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="conteudopag4">
+            <img src="../img/ComoSalvar.jpg" alt="ComoSalvar">
+            <div class="ajuste-texto">
+                <h1>Como Salvar o Jogo</h1>
+                <p>Quando você limpar áreas como um castelo, fortaleza ou casa fantasma, as opções a seguir aparecerão
+                    na tela do mapa.</p>
+                <ul class="A">
+                    <li>Continue and Save (Continua e Salva)</li>
+                    <li>Continue Without Save (Continua Sem Salvar)</li>
+                </ul>
+                <p>Se você escolher "Continue and Save", o caminho até esse ponto será salvo no modo "save" que você
+                    selecionou na Tela de Apresentação. Quando a sua seleção tiver sido gravada, não importa se você
+                    girar a tecla power para off, porque o seu jogo está salvo no cartucho do jogo. Se você quiser
+                    terminar o jogo na mesma condição que você começou, selecione "Continue Without Save" e Então
+                    continue o jogo. (Os seus Marios extras não serão salvos.)</p>
+            </div>
+        </div>
+
+        <div class="conteudo02">
+            <img src="../img/Continue_End.png" alt="Continue_End">
+            <div class="ajuste-texto02">
+                <p>Quando o jogo acabar, as opções a seguir aparecerão na tela do mapa:</p>
+                <ul class="B">
+                    <li>Continue (Continua)</li>
+                    <li>End (Fim)</li>
+                </ul>
+                <p>Se você escolher "End", você voltará para a tela de Apresentação. Se você escolher "Continue", você
+                    começará o caminho que estiver imediatamente após o último ponto salvo. Quando todos os três modos
+                    "save" tiverem sido usados, você pode apagar as informações que estiverem em um dos modos
+                    selecionando "Delete Saved Route" (Apaga o Caminho Salvo) na tela de Apresentação. Depois de
+                    selecionar e recomeçar um modo salvo, você pode escolher se vai usar o jogo para 1 jogador ou o jogo
+                    para 2 jogadores. (O número que aparece no modo salvo é o número de áreas que você encontrou até o
+                    ponto onde você salvou.)</p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="rodape-PAG4">
+            <span>&copy; Todos os Direitos Reservados.</span>
+        </div>
+    </footer>
+    <script src="../js/scripts.js"></script>
+</body>
+
+</html>

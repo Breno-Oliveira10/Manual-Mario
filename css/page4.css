@@ -1,0 +1,175 @@
+.conteudopag4 {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.conteudopag4 img { 
+  margin-top: 1%; 
+  width: 35%;
+  height: auto;
+  margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.conteudopag4 div {
+  flex: 1;
+}
+
+.conteudopag4 h1, .conteudopag4 p, .conteudopag4 ul, .conteudopag4 li {
+  text-align: justify;
+  margin: 10px 5px;
+}
+
+.conteudopag4 ul {
+  list-style-type: circle;
+  padding: auto;
+}
+
+/* Estilos para ajuste de texto específico - 01*/
+.ajuste-texto {
+  text-align: justify;
+  line-height: 1.6; 
+  margin: 20px 0; 
+}
+
+.ajuste-texto h1 {
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.ajuste-texto ul {
+  list-style-type: circle; 
+  padding: 0; /* Remover padding padrão */
+  margin: 10px 0; /* Espaçamento acima e abaixo da lista */
+}
+
+.ajuste-texto ul li {
+  margin-bottom: 1px; /* Espaçamento entre os itens da lista */
+}
+
+/* Estilos para class .conteudo02 */
+.conteudo02 {
+  width: 85%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.conteudo02 div {
+  flex: 1;
+}
+
+.conteudo02 h1, .conteudo02 p, .conteudo02 ul, .conteudo02 li {
+  text-align: justify;
+  margin: 10px 0;
+}
+
+.conteudo02 ul {
+  list-style-type: circle;
+  padding: 0;
+}
+
+.conteudo02 img {
+  width: 35%;
+  height: auto;
+  margin-left: 0; /* Espaçamento entre o texto e a imagem */
+}
+
+/* Estilos para ajuste de texto específico - 02*/
+.ajuste-texto02 {
+  text-align: justify;
+  line-height: 1.6; 
+  margin: 20px 0; 
+  margin-left: 24px;
+}
+
+.ajuste-texto02 h1 {
+  margin-bottom: 10px; /* Espaçamento abaixo do título */
+}
+
+.ajuste-texto02 ul {
+  list-style-type: circle; 
+  padding: 0; /* Remover padding padrão */
+  margin: 10px 0; /* Espaçamento acima e abaixo da lista */
+}
+
+.ajuste-texto02 ul li {
+  margin-bottom: 1px; /* Espaçamento entre os itens da lista */
+}
+
+.A {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+.B {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-left: 32px;
+}
+
+.rodape-PAG4 {
+  background-color: #02b44c;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Responsividade */
+@media (max-width: 1000px) {
+  .conteudopag4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteudopag4 h1{
+    text-align: center;
+  }
+
+  .conteudopag4 .A{
+    text-align: center;
+  }
+
+  .ajuste-texto02 {
+    margin-left: 0;
+  }
+
+  .conteudopag4 img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1px; 
+  }
+
+  .conteudo02 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteudo02 img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 1px; 
+  }
+}
+
+@media (max-width: 800px) {
+  .conteudopag4 img, .conteudo02 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .conteudopag4 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .conteudo02 {
+    flex-direction: column;
+    align-items: center;
+  }
+}
